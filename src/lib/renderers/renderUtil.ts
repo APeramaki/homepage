@@ -5,3 +5,5 @@ export const rendermap = new Map()
    .set("em", renderers.Em)
    .set("paragraph", renderers.Paragraph)
    .set("text", renderers.Text)
+   .set("strong", renderers.Strong)
+   
