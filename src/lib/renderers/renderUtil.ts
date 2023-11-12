@@ -4,4 +4,4 @@ export const rendermap = new Map()
    .set("code", renderers.Codespan)
    .set("em", renderers.Em)
    .set("paragraph", renderers.Paragraph)
-   .set("text", renderers.Paragraph);
+   .set("text", renderers.Text)

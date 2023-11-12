@@ -10,7 +10,7 @@
    <p>
       {#if token.tokens }
          {#each token.tokens as t }
-            {#if t.type === "paragraph"} 
+            {#if t.type === "paragraph"}
                <svelte:self token={t}/>
             {:else if t.type !== "text"}
                <svelte:component this={rendermap.get(t.type)} token={t}/>
