@@ -23,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@wasm-tool/rollup-plugin-rust": "^2.4.4"
+		"@wasm-tool/rollup-plugin-rust": "^2.4.4",
+		"marked": "^9.1.6"
 	}
 }
