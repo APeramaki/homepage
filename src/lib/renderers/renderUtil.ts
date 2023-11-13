@@ -6,4 +6,5 @@ export const rendermap = new Map()
    .set("paragraph", renderers.Paragraph)
    .set("text", renderers.Text)
    .set("strong", renderers.Strong)
+   .set("image", renderers.Image)
    

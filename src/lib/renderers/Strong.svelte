@@ -8,7 +8,7 @@
 
    <strong>
       {#each token.text.split('\n') as r}
-         {r}<br>
+         {r}
       {/each}
    </strong>
 
