@@ -8,4 +8,5 @@ export const rendermap = new Map()
    .set("strong", renderers.Strong)
    .set("image", renderers.Image)
    .set("link", renderers.Link)
+   .set("del", renderers.Del)
    
