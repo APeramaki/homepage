@@ -1,4 +1,5 @@
 <script lang="ts">
+   import { rendermap } from "./renderUtil";
    import type {
       Tokens,
    } from 'marked'
@@ -7,8 +8,8 @@
 </script>
 
    <i>
-      {#each token.text.split('\n') as r}
-         {r}
+      {#each token.tokens as t }
+         <svelte:component this={rendermap.get(t.type)} token={t} />   
       {/each}
    </i>
 
