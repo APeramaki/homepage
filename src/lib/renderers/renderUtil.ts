@@ -9,4 +9,4 @@ export const rendermap = new Map()
    .set("image", renderers.Image)
    .set("link", renderers.Link)
    .set("del", renderers.Del)
-   
+   .set("codespan", renderers.Codespan)
