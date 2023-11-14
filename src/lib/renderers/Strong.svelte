@@ -9,6 +9,7 @@
 
    <strong>
       {#each token.tokens as t }
+         <svelte:component this={rendermap.get(t.type)} token={t} />   
       {/each}
    </strong>
 
