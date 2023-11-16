@@ -12,4 +12,5 @@ export const rendermap = new Map()
    .set("codespan", renderers.Codespan)
    .set("list", renderers.List)
    .set("list_item", renderers.ListItem)
+   .set("hr", renderers.Hr)
    
