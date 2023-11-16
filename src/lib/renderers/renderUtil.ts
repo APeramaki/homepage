@@ -10,3 +10,6 @@ export const rendermap = new Map()
    .set("link", renderers.Link)
    .set("del", renderers.Del)
    .set("codespan", renderers.Codespan)
+   .set("list", renderers.List)
+   .set("list_item", renderers.ListItem)
+   
