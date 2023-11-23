@@ -13,7 +13,7 @@ export { default as List } from './List.svelte'
 export { default as ListItem } from './ListItem.svelte'
 export { default as Hr } from './Hr.svelte'
 // export { default as Html } from './Html.svelte'
-// export { default as Blockquote } from './Blockquote.svelte'
+export { default as Blockquote } from './Blockquote.svelte'
 export { default as Code } from './Code.svelte'
 // export { default as Br } from './Br.svelte'
 

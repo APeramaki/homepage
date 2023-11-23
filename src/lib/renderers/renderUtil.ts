@@ -14,4 +14,5 @@ export const rendermap = new Map()
    .set("list_item", renderers.ListItem)
    .set("hr", renderers.Hr)
    .set("table", renderers.Table)
+   .set("blockquote", renderers.Blockquote)
    

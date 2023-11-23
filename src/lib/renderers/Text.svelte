@@ -12,7 +12,3 @@
 {:else}
    {token.text}
 {/if}
-
-<style>
-
-</style>
