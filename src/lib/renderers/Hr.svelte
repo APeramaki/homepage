@@ -10,5 +10,6 @@
 <style>
    hr {
       width: 75%;
+      color: var(--highlight-high)
    }
 </style>

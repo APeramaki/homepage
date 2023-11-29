@@ -19,6 +19,6 @@
 
 <style>
    h1 {
-      color: var(--fg-3);
+      color: var(--text);
    }
 </style>

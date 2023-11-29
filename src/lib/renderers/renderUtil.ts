@@ -15,4 +15,3 @@ export const rendermap = new Map()
    .set("hr", renderers.Hr)
    .set("table", renderers.Table)
    .set("blockquote", renderers.Blockquote)
-   

@@ -19,15 +19,14 @@
 <style>
    th, td {
       padding: 0.2rem 0.45rem;
-      border-radius: 7px;
    }
    th {
-      background-color: var(--bg-0);
+      background-color: var(--highlight-high);
    }
    td[data-rowId="true"] {
-      background-color: var(--bg-2);
+      background-color: var(--highlight-low);
    }
    td[data-rowId="false"] {
-      background-color: var(--bg-25);
+      background-color: var(--highligh-med);
    }
 </style>

@@ -21,6 +21,3 @@
       {/if}
    </p>
 
-<style>
-
-</style>

@@ -17,10 +17,10 @@
 <style>
    div {
       border-radius: 7px;
-      background-color: var(--bg-3);
+      background-color: var(--surface);
    }
    div .side {
-      background-color: var(--bg-2);
+      background-color: var(--overlay);
       width: 4rem;
       height: 100%;
       border-radius: 0px 0px 0 0px;

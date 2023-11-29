@@ -18,6 +18,6 @@
       justify-content: center;
    }
    span {
-      color: var(--fg-3);
+      color: var(--muted);
    }
 </style>

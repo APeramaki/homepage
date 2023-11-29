@@ -16,12 +16,12 @@
 
 <style>
    h1 {
-      color: var(--fg-1);
+      color: var(--text);
    }
    h2 {
-      color: var(--fg-2);
+      color: var(--text);
    }
    h3, h4, h5, h6 {
-      color: var(--fg-3)
+      color: var(--text)
    }
 </style>

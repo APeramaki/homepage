@@ -14,5 +14,7 @@
    </s>
 
 <style>
-
+   s {
+      color: var(--muted)
+   }
 </style>

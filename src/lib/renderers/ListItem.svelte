@@ -25,7 +25,7 @@
 <style>
    ul li span, ol li span {
       display: inline-block;
-      color: var(--fg-1);
+      color: var(--text);
       width: 1.2em;
       height: 1.2em;
    }
