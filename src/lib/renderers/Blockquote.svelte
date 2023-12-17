@@ -6,29 +6,30 @@
    
    export let token : Tokens.Blockquote;
 </script>
-   <div class="quote-container">
-      <div class="side"></div>
-      <div>
+   
+   <div class="side">
+      <div class="main">
          {#each token.tokens as t }
             <svelte:component this={rendermap.get(t.type)} token={t}/>   
          {/each}
       </div>
    </div>
+
 <style>
-   div {
+   div.side {
       border-radius: 7px;
-      background-color: var(--overlay);
-   }
-   div .side {
       background-color: var(--highlight-med);
-      width: 4rem;
+      width: 100%;
       height: 100%;
-      border-radius: 0px 0px 0 0px;
       overflow: hidden;
    }
-   .quote-container {
-      display: grid;
-      grid-template-columns: 4rem 1fr;
-      grid-gap: 0;
+   .main {
+      border-radius: 0px 7px 7px 0px;
+      background-color: var(--overlay);
+      padding-left: 1rem;
+      margin-left: 0.25rem;
+      width: 100%;
+      height: 100%;
    }
+
 </style>

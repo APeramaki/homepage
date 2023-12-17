@@ -21,3 +21,8 @@
       {/if}
    </p>
 
+<style>
+   p {
+      margin: 0px;
+   }
+</style>
