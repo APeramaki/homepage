@@ -1,9 +1,12 @@
-import { getHighlighter, type Lang } from 'shiki';
+import { getHighlighter, setCDN, type Lang } from 'shiki';
 import { BUNDLED_LANGUAGES } from 'shiki';
 export type Language = Lang;
+
+setCDN('/');
+
 const shiki = await getHighlighter({
    themes: ['rose-pine'],
-   langs: ['javascript']
+   langs: ['javascript'],
 })
 let theme = 'rose-pine';
 export const LANGS = BUNDLED_LANGUAGES;

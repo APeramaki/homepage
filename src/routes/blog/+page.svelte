@@ -17,7 +17,7 @@
    
    {#if html}
       {#each html as el}
-            <Markup token={el}/>           
+            <Markup token={el}/>
       {/each}
    {/if}
 </div>

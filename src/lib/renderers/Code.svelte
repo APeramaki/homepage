@@ -7,7 +7,6 @@
    let themedTokens: IThemedToken[][]
    $: toThemedTokens = (token: Tokens.Code) => {
       const tt = codeToThemedTokens(token.text, token.lang)
-      console.log(tt);
       return tt;
    }
 
