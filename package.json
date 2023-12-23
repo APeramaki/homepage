@@ -25,6 +25,7 @@
 	"dependencies": {
 		"@wasm-tool/rollup-plugin-rust": "^2.4.4",
 		"marked": "^9.1.6",
-		"shiki": "^0.14.5"
+		"shiki": "^0.14.5",
+		"surrealdb.js": "^0.11.0"
 	}
 }
